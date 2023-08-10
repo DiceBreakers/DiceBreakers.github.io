@@ -1,5 +1,5 @@
 /*
-	Old Friends Game by Dice Breakers.
+	New Friends Game by Dice Breakers.
 	Not Licensed for any other use.
 */
 "use strict";
@@ -33,6 +33,6 @@ const NewFriendsArray = [
     "What's your favorite form of recreation? What do you like about it?",
 ]
 
-var randomQ = NewFriendsArray[(Math.floor(Math.random() * (OldFriendsArray.length)))];
+var randomQ = NewFriendsArray[(Math.floor(Math.random() * (NewFriendsArray.length)))];
 
 document.getElementById('qContainer').innerHTML = randomQ;
