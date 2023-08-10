@@ -1,12 +1,12 @@
 /*
-	Old Friends Game by Dice Breakers.
+	Happy Thoughts Game by Dice Breakers.
 	Not Licensed for any other use.
 */
 "use strict";
 
 const log = (v) => console.log(v);
 
-const OldFriendsArray = [
+const HappyThoughtsArray = [
     "Mini Playlist - Queue up one song and share a reason you like it.",
     "Affirmations - Say something you admire about another person.",
     "Share a time you were embarrassed, or has become embarrassing with time.",
@@ -33,6 +33,6 @@ const OldFriendsArray = [
     "High fives all around",
 ]
 
-var randomQ = OldFriendsArray[(Math.floor(Math.random() * (OldFriendsArray.length)))];
+var randomQ = HappyThoughtsArray[(Math.floor(Math.random() * (HappyThoughtsArray.length)))];
 
 document.getElementById('qContainer').innerHTML = randomQ;
