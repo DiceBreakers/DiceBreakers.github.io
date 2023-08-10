@@ -2395,7 +2395,9 @@ input, select, textarea {
 			}
 
 /* List */
-
+	li {
+		list-style-type: none;
+	}
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
