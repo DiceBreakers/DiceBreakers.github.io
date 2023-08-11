@@ -7,32 +7,23 @@
 const log = (v) => console.log(v);
 
 const WYRArray = [
-    "Mini Playlist - Queue up one song and share a reason you like it.",
-    "Affirmations - Say something you admire about another person.",
-    "Share a time you were embarrassed, or has become embarrassing with time.",
-    "Share any happy thought or memory.",
-    "Share a goal you'd like to accomplish at some point in your life.",
-    "Self-Affirmation - Share one character trait about yourself that you're proud of.",
-    "Share something you want to learn or improve at.",
-    "Share something that made you laugh recently.",
-    "Share one personal life experience that changed you.",
-    "What is one world event that affected you?",
-    "Share a happy sad memory. A meaningful time you had mixed emotions, or that was one emotion when you experienced it and has shifted over time",
-    "Share a personal growth story you're proud of.",
-    "Share something you struggle with and would like to work on.",
-    "Share a personal fear.",
-    "How would you describe your moral code?",
-    "What is your nearest to death experience?",
-    "1 Minute Yoga Flow",
-    "Go for a walk",
-    "Stay hydrated",
-    "Do 5 pushups",
-    "Do a somersault",
-    "Pet a dog",
-    "Hug a friend",
-    "High fives all around",
+    "Would you rather have the ability to fly or be invisible?",
+    "Would you rather have a photographic memory or the ability to read minds?",
+    "Would you rather be able to speak all languages fluently or play any musical instrument?",
+    "Would you rather live in a world with no technology or a world with no nature?",
+    "Would you rather have the ability to control fire or water?",
+    "Would you rather have the ability to speak to animals or to understand and speak all human languages?",
+    "Would you rather be incredibly wealthy but work a job you hate, or have a fulfilling job but struggle financially?",
+    "Would you rather be able to control animals with your mind or control electronics with your mind?",
+    "Would you rather live without the internet or without air conditioning/heating?",
+    "Would you rather be the best player on a losing team or the worst player on a winning team?",
+    "Would you rather always have to speak your mind or never be able to speak again?",
+    "Would you rather live in a fantasy world with magic and mythical creatures or in a futuristic sci-fi world?",
+
 ]
 
 var randomQ = WYRArray[(Math.floor(Math.random() * (WYRArray.length)))];
 
 document.getElementById('pContainer').innerHTML = randomQ;
+
+
