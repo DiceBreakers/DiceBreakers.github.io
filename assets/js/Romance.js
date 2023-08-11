@@ -35,4 +35,4 @@ const RomanceArray = [
 
 var randomQ = RomanceArray[(Math.floor(Math.random() * (RomanceArray.length)))];
 
-document.getElementById('qContainer').innerHTML = randomQ;
+document.getElementById('pContainer').innerHTML = randomQ;

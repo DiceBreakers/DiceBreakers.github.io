@@ -35,4 +35,4 @@ const OldFriendsArray = [
 
 var randomQ = OldFriendsArray[(Math.floor(Math.random() * (OldFriendsArray.length)))];
 
-document.getElementById('qContainer').innerHTML = randomQ;
+document.getElementById('pContainer').innerHTML = randomQ;

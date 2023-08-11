@@ -35,4 +35,4 @@ const HappyThoughtsArray = [
 
 var randomQ = HappyThoughtsArray[(Math.floor(Math.random() * (HappyThoughtsArray.length)))];
 
-document.getElementById('qContainer').innerHTML = randomQ;
+document.getElementById('pContainer').innerHTML = randomQ;

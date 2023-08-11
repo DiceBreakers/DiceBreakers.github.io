@@ -35,4 +35,4 @@ const WYRArray = [
 
 var randomQ = WYRArray[(Math.floor(Math.random() * (WYRArray.length)))];
 
-document.getElementById('qContainer').innerHTML = randomQ;
+document.getElementById('pContainer').innerHTML = randomQ;

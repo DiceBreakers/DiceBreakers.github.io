@@ -35,4 +35,4 @@ const KidsArray = [
 
 var randomQ = KidsArray[(Math.floor(Math.random() * (KidsArray.length)))];
 
-document.getElementById('qContainer').innerHTML = randomQ;
+document.getElementById('pContainer').innerHTML = randomQ;

@@ -35,4 +35,4 @@ const HeavyArray = [
 
 var randomQ = HeavyArray[(Math.floor(Math.random() * (HeavyArray.length)))];
 
-document.getElementById('qContainer').innerHTML = randomQ;
+document.getElementById('pContainer').innerHTML = randomQ;
