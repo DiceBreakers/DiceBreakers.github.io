@@ -6,7 +6,7 @@
 
 const log = (v) => console.log(v);
 
-const OldFriendsArray = [
+const TabooArray = [
     "Mini Playlist - Queue up one song and share a reason you like it.",
     "Affirmations - Say something you admire about another person.",
     "Share a time you were embarrassed, or has become embarrassing with time.",
@@ -33,6 +33,6 @@ const OldFriendsArray = [
     "High fives all around",
 ]
 
-var randomQ = OldFriendsArray[(Math.floor(Math.random() * (OldFriendsArray.length)))];
+var randomQ = TabooArray[(Math.floor(Math.random() * (TabooArray.length)))];
 
 document.getElementById('pContainer').innerHTML = randomQ;
