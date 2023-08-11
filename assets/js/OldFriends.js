@@ -23,14 +23,14 @@ const OldFriendsArray = [
     "Share a personal fear.",
     "How would you describe your moral code?",
     "What is your nearest to death experience?",
-    "1 Minute Yoga Flow",
+    "1 Minute Yoga Flow.",
     "Go for a walk",
-    "Stay hydrated",
-    "Do 5 pushups",
-    "Do a somersault",
-    "Pet a dog",
-    "Hug a friend",
-    "High fives all around",
+    "Drink some water.",
+    "Do 5 pushups.",
+    "Do a somersault.",
+    "Pet a dog.",
+    "Hug a friend.",
+    "High fives all around.",
 ]
 
 var randomQ = OldFriendsArray[(Math.floor(Math.random() * (OldFriendsArray.length)))];
