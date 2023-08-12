@@ -8,57 +8,72 @@
 
 
 <url>
-  <loc>http://dicebreakers.app/</loc>
-  <lastmod>2023-08-12T04:58:42+00:00</lastmod>
+  <loc>https://dicebreakers.app/</loc>
+  <lastmod>2023-08-12T05:24:18+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://dicebreakers.app/NewFriends.html</loc>
+  <loc>https://dicebreakers.app/NewFriends.html</loc>
   <lastmod>2023-08-11T23:48:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dicebreakers.app/OldFriends.html</loc>
+  <loc>https://dicebreakers.app/OldFriends.html</loc>
   <lastmod>2023-08-11T23:48:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dicebreakers.app/Kids.html</loc>
+  <loc>https://dicebreakers.app/Kids.html</loc>
+  <lastmod>2023-08-12T13:23:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dicebreakers.app/WYR.html</loc>
   <lastmod>2023-08-11T23:48:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dicebreakers.app/WYR.html</loc>
+  <loc>https://dicebreakers.app/Happy.html</loc>
   <lastmod>2023-08-11T23:48:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dicebreakers.app/Happy.html</loc>
+  <loc>https://dicebreakers.app/DateNight.html</loc>
   <lastmod>2023-08-11T23:48:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dicebreakers.app/DateNight.html</loc>
+  <loc>https://dicebreakers.app/Heavy.html</loc>
   <lastmod>2023-08-11T23:48:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dicebreakers.app/Heavy.html</loc>
-  <lastmod>2023-08-11T23:48:09+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://dicebreakers.app/Politics.html</loc>
+  <loc>https://dicebreakers.app/Politics.html</loc>
   <lastmod>2023-08-12T04:50:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dicebreakers.app/Music.html</loc>
+  <loc>https://dicebreakers.app/Silly.html</loc>
+  <lastmod>2023-08-12T13:23:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dicebreakers.app/Spiritual.html</loc>
+  <lastmod>2023-08-12T13:23:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dicebreakers.app/Music.html</loc>
   <lastmod>2023-08-12T04:50:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dicebreakers.app/Journal.html</loc>
+  <loc>https://dicebreakers.app/Random.html</loc>
+  <lastmod>2023-08-12T13:23:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dicebreakers.app/Journal.html</loc>
   <lastmod>2023-08-12T04:50:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
