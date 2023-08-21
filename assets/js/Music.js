@@ -33,6 +33,39 @@ const MusicArray = [
 
 ]
 
-var randomQ = MusicArray[(Math.floor(Math.random() * (MusicArray.length)))];
 
-document.getElementById('pContainer').innerHTML = randomQ;
+function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
+  }
+  
+  // Used like so
+  shuffle(MusicArray);
+
+var orderRoll = (function() {
+  var count = -1;
+  return function() {
+    return MusicArray[++count % MusicArray.length];
+  }
+}());
+
+var repeatRoll = (function() {
+  var copy;
+  return function() {
+    if (!copy || !copy.length) copy = MusicArray.slice();
+    return copy.splice(Math.random() * copy.length | 0, 1);
+  }
+}());

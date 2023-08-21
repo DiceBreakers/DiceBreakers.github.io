@@ -30,3 +30,15 @@
 		$('.scrolly').scrolly();
 
 })(jQuery);
+
+$(document).ready(function(){
+    $('input:radio').change(function(){
+        if($('input[name="dice"]:checked').val() == "repeat"){
+            $('.order').hide();
+            $('.repeat').show();
+        }else{
+            $('.order').show();
+            $('.repeat').hide();
+        }
+    });
+});
