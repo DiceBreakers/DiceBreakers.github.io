@@ -6,7 +6,7 @@
 
 const log = (v) => console.log(v);
 
-const HappyThoughtsArray = [
+const HappyArray = [
     "Mini Playlist - Queue up one song and share a reason you like it.",
     "Affirmations - Say something you admire about another person.",
     "Share any happy thought or memory.",

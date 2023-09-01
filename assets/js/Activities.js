@@ -24,7 +24,7 @@ const ActiveArray = [
     "Hold a plank for as long as you can.",
     "Do 10 arm circles, forward and backward.",
     "Touch your toes, or get as close as you can.",
-    "Put on a song and dance!",
+    "Dance to one of your favorite songs!",
     "Read a book!",
     "Cook or bake something you've been craving.",
     "Clean one room.",
